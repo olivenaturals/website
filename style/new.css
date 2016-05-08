@@ -1,0 +1,146 @@
+body {
+	font-size: 12pt;
+	line-height: 1.1em;
+	background: #CED4D4 url(images/bg.jpg) repeat-x top left;
+	color: #343535;
+}
+
+#banner {
+	position: relative;
+	padding: 10px;
+	height: auto;
+	width: 79%;
+	
+	background: grey;
+    border: 1px black solid;
+    margin-left: 10%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.top-image {
+    background-image: url(images/scenary.jpg);
+    background-size: 100% 100%;
+    height : 265px;
+}
+
+img {
+    width : 100%;
+}
+
+.content2 {
+    position: relative;
+	padding: 10px;
+	height: auto;
+	width: 79%;
+	
+	background-color: white;
+    
+    border: 0px grey solid;
+    margin-left: 10%;
+    margin-top: 15px;
+    
+}
+.sub {
+    font-size: 12px;
+    font-style: italic;
+    font-variant: small-caps;
+    text-align: right;
+    padding-top: 30px;
+    line-height: 20px;
+    width: 250px;
+}
+.logo1 {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    font-size: 48px;
+   
+   
+    color: olive;
+    padding-top: 40px;
+    
+    font-weight: 100;
+    text-align: center;
+}
+.tagline {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 20px;
+   
+    color:black;
+    text-align: center;
+    
+}
+
+
+#box1 {
+	width: 920px;
+	overflow: hidden;
+	margin: 0 0 20px 0;
+}
+
+#box2 {
+	width: 450px;
+	overflow: hidden;
+	float: left;
+}
+
+#box3 {
+	width: 450px;
+	overflow: hidden;
+	margin: 0 0 0 470px;
+}
+
+#main .sectionList {
+	list-style: none;
+	padding-left: 0;
+}
+
+#main .sectionList li {
+	clear: both;
+	padding: 20px 0 20px 0;
+}
+
+#main ul {
+	list-style: none;
+}
+
+#main ul li {
+	padding: 10px 0 10px 0;
+	border-top: solid 1px #C2C2C2;
+}
+
+#main ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+
+#content {
+	width: 920px;
+	padding: 30px;
+	background: #FFF;
+	color: #4A4A4A;
+}
+
+#content a {
+	color: #0D0D0D;
+}
+
+#content h2, #content h3, #content h4 {
+	color: #871C1C;
+}
+
+#outer {
+	position: relative;
+	width: 980px;
+	margin: 85px auto 0 auto;
+}
+img.left {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+img.top {
+	margin: 5px 0 20px 0;
+}

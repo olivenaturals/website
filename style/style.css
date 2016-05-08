@@ -1,0 +1,306 @@
+/*
+	Animalia by FWT
+	www.freewebsitetemplat.es
+	Images by Image Base http://imagebase.davidniblack.com/
+	Released under the Creative Commons Attribution 3.0 License.
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: underline;
+	color: #871C1C;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-size: 12pt;
+	line-height: 1.1em;
+	background: #CED4D4 url(images/bg.jpg) repeat-x top left;
+	color: #343535;
+}
+
+body,input {
+	font-family: Antic, sans-serif;
+}
+
+br.clear {
+	clear: both;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4 {
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h2,h3,h4 {
+	margin-bottom: 1em;
+	font-family: "Patua One", serif;
+	color: #000;
+}
+
+h3 {
+	font-size: 1.25em;
+	background: #871C1C;
+	color: #FFF!important;
+	padding: 6px;
+}
+
+h4 {
+	font-size: 1em;
+	color: #871C1C;
+}
+
+img.left {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+img.top {
+	margin: 5px 0 20px 0;
+}
+
+label.login {
+	display: block;
+	margin: 0 0 6px 0;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin-bottom: 1.5em;
+}
+
+ul h4 {
+	margin-bottom: 0.35em;
+}
+
+.form {
+	margin: 0 0 30px 0;
+}
+
+.inputBox, .inputTextArea {
+	padding: 6px;
+	width: 95%;
+}
+
+.inputButton {
+	padding: 6px;
+	float: right;
+}
+
+#banner {
+	position: relative;
+	padding: 30px;
+	height: 265px;
+	width: 920px;
+	margin: 20px 0 20px 0;
+	background: grey;
+    border: 1px grey solid;
+}
+
+#box1 {
+	width: 920px;
+	overflow: hidden;
+	margin: 0 0 20px 0;
+}
+
+#box2 {
+	width: 450px;
+	overflow: hidden;
+	float: left;
+}
+
+#box3 {
+	width: 450px;
+	overflow: hidden;
+	margin: 0 0 0 470px;
+}
+
+#content {
+	width: 920px;
+	padding: 30px;
+	background: #FFF;
+	color: #4A4A4A;
+}
+
+#content a {
+	color: #0D0D0D;
+}
+
+#content h2, #content h3, #content h4 {
+	color: #871C1C;
+}
+
+#copyright {
+	margin: 0 0 50px 0;
+	padding: 50px 0 80px 0;
+	text-align: center;
+}
+
+#copyright a {
+	color: #343535;
+}
+
+.title {
+    position: absolute;
+}
+#header {
+	position: relative;
+	padding-left: 30px;
+	height: 25px;
+	width: 920px;
+	background: #584F4B;
+	color: #FFF;
+   
+}
+
+.logo1 {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    font-size: 48px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: olive;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-weight: 100;
+}
+.tagline {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing:  -1px;
+    color:black;
+    
+}
+#logo {
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 115px;
+	line-height: 115px;
+    
+}
+
+
+#logo a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+#logo h1 {
+	font-size: 2.25em;
+	font-family: "Patua One", serif;
+}
+
+#main {
+	position: relative;
+	padding: 0;
+	width: 980px;
+	margin: 20px 0 20px 0;
+}
+
+#main .sectionList {
+	list-style: none;
+	padding-left: 0;
+}
+
+#main .sectionList li {
+	clear: both;
+	padding: 20px 0 20px 0;
+}
+
+#main ul {
+	list-style: none;
+}
+
+#main ul li {
+	padding: 10px 0 10px 0;
+	border-top: solid 1px #C2C2C2;
+}
+
+#main ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#nav {
+	position: absolute;
+	right: 30px;
+	height: 51px;
+	line-height: 51px;
+	top: 62px;
+	font-family: "Patua One", serif;
+	background: #871C1C;
+}
+
+#nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	color: #FFF;
+}
+
+#nav ul {
+	list-style: none;
+	padding: 0 15px 0 15px;
+}
+
+#nav ul li {
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+
+#outer {
+	position: relative;
+	width: 980px;
+	margin: 85px auto 0 auto;
+}
+
+#search input.button {
+	margin-left: 1em;
+	border: 0;
+	color: #FFF;
+	background: #871C1C;
+	padding: 5px;
+	font-family: "Patua One", serif;
+}
+
+#search input.text {
+	border: solid 1px #807976;
+	padding: 5px;
+}
+
+.blogpost h2 {
+	margin: 0 0 10px 0;
+}
+
+.blogpost h3 {
+	background: none;
+	color: #0D0D0D!important;
+}
+
+.comments a, .readmore a {
+	background: #871C1C;
+	color: #FFF!important;
+	padding: 6px;
+	text-decoration: none;
+}
